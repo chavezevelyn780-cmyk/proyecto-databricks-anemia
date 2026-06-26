@@ -216,3 +216,41 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===============================
+# Databricks
+# ===============================
+
+# Databricks temporary files
+.databricks/
+
+# Delta temporary files
+_delta_log/
+
+# Spark local files
+spark-warehouse/
+
+# Local notebooks export
+*.dbc
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Local configuration
+*.bak
+*.tmp
